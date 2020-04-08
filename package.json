@@ -1,0 +1,31 @@
+{
+  "name": "flash_message",
+  "version": "1.0.0",
+  "description": "Simple Flash message",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalgopalPatro/Flash-Message-in-node.git"
+  },
+  "keywords": [
+    "connect-flash"
+  ],
+  "author": "N Balgopal Patro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalgopalPatro/Flash-Message-in-node/issues"
+  },
+  "homepage": "https://github.com/BalgopalPatro/Flash-Message-in-node#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.2"
+  }
+}
